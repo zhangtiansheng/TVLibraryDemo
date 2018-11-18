@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 滚动窗口 -->
+    <dimen name="fading_edge">80dp</dimen>
+
+</resources>

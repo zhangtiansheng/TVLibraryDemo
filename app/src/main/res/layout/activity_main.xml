@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.swl.tvlibrary.view.SmoothHorizontalScrollView
+        android:id="@+id/hscroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <com.swl.tvlibrary.view.RelativeMainLayout
+            android:id="@+id/main_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="60dp">
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/recycler_test1"
+                android:layout_width="500px"
+                android:layout_height="354px"
+                android:layout_marginTop="40px"
+                app:text="recyclerView测试1" />
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/recycler_test2"
+                android:layout_width="500px"
+                android:layout_height="354px"
+                android:layout_marginTop="40px"
+                app:text="recyclerView测试2" />
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/broad_test"
+                android:layout_width="500px"
+                android:layout_height="354px"
+                android:layout_marginTop="40px"
+                app:text="边框效果测试" />
+
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/listView_test"
+                android:layout_width="500px"
+                android:layout_height="354px"
+                android:layout_marginTop="40px"
+                app:text="ListView自动焦点处理测试" />
+
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/gridView_test"
+                android:layout_width="500px"
+                android:layout_height="354px"
+                android:layout_marginTop="40px"
+                app:text="gridView自动焦点处理测试" />
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/relativeLayout_test"
+                android:layout_width="500px"
+                android:layout_height="354px"
+                android:layout_marginTop="40px"
+                app:text="RelativeLayout自动焦点处理测试" />
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/linearLayout_test"
+                android:layout_width="500px"
+                android:layout_height="354px"
+                android:layout_marginTop="40px"
+                app:text="LinearLayout自动焦点处理测试" />
+
+
+        </com.swl.tvlibrary.view.RelativeMainLayout>
+
+    </com.swl.tvlibrary.view.SmoothHorizontalScrollView>
+
+    <!-- 最顶层边框 -->
+
+    <com.swl.tvlibrary.view.MainUpView
+        android:id="@+id/mainUpView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:upImageRes="@drawable/test_rectangle" />
+
+</RelativeLayout>
