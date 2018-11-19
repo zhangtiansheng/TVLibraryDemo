@@ -10,3 +10,7 @@
 4：自定义LinearLayout,RelativeLayout控件对子控件的焦点处理
 
 5：其他自定义用于TV端平滑滚动的View
+
+可实现如下效果：
+仿电视猫APP效果，所以暂时使用电视猫的效果替代
+![image](TVLibraryDemo/image/1.jpg)
