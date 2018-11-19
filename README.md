@@ -15,6 +15,6 @@
 
 仿电视猫APP效果，所以暂时使用电视猫的效果替代
 
-<img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/1.jpg" width=350 height=150/>
-<img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/3.jpg" width=350 height=150/>
-<img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/4.jpg" width=350 height=150/>
+<img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/1.jpg" width=270 height=150/>
+<img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/3.jpg" width=270 height=150/>
+<img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/4.jpg" width=270 height=150/>
