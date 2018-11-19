@@ -13,6 +13,8 @@
 
 可实现如下效果：
 
+示例app暂未上传，但其中使用到的TV控件已经全部上传
+
 仿电视猫APP效果，所以暂时使用电视猫的效果替代
 
 <img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/1.jpg" width=270 height=150/>
