@@ -13,4 +13,4 @@
 
 可实现如下效果：
 仿电视猫APP效果，所以暂时使用电视猫的效果替代
-![image](TVLibraryDemo/image/1.jpg)
+![image](https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/1.jpg)
