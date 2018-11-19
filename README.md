@@ -12,5 +12,10 @@
 5：其他自定义用于TV端平滑滚动的View
 
 可实现如下效果：
+
 仿电视猫APP效果，所以暂时使用电视猫的效果替代
+
 ![image](https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/1.jpg)
+![image](https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/2.jpg)
+![image](https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/3.jpg)
+![image](https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/4.jpg)
