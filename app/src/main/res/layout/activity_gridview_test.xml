@@ -1,0 +1,40 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingLeft="80dp">
+
+    <com.swl.tvlibrary.custom.MemoryListView
+        android:id="@+id/listview_1"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/live_category_item_line"
+        android:nextFocusDown="@+id/listview_1"
+        android:nextFocusLeft="@id/listview_1"
+        android:nextFocusRight="@+id/gridView_1" />
+
+    <com.swl.tvlibrary.custom.PageScrollGridView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/gridView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/live_category_item_line"
+        android:nextFocusLeft="@+id/listview_1"
+        android:nextFocusUp="@+id/gridView_1"
+        android:nextFocusDown="@+id/gridView_1"
+        android:nextFocusRight="@+id/gridView_1"
+        android:numColumns="5" />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

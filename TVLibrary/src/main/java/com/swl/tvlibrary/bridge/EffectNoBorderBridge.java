@@ -1,4 +1,4 @@
-﻿package com.swl.tvlibrary.bridge;
+package com.swl.tvlibrary.bridge;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -56,19 +56,19 @@ public class EffectNoBorderBridge extends OpenEffectBridge {
              * 并且交换了位置. <br>
              * 你可以写自己的动画效果. <br>
              */
-            runScaleAnimation(focusView, scaleX, scaleY, 1.05f, 1.05f);
+            runScaleAnimation(focusView, scaleX, scaleY);
         }
     }
 
     /**
      * 弹动效果，放大再缩小
      */
-    public void runScaleAnimation(View focusView, float scaleX, float scaleY, float endScaleX, float endScaleY) {
+    public void runScaleAnimation(View focusView, float scaleX, float scaleY) {
         if (mCurrentAnimatorSet != null) {
             mCurrentAnimatorSet.cancel();
         }
-        ObjectAnimator scaleAnimatorX = ObjectAnimator.ofFloat(focusView, "scaleX", 1f, scaleX, endScaleX);
-        ObjectAnimator scaleAnimatorY = ObjectAnimator.ofFloat(focusView, "scaleY", 1f, scaleY, endScaleY);
+        ObjectAnimator scaleAnimatorX = ObjectAnimator.ofFloat(focusView, "scaleX", 1.0f, scaleX);
+        ObjectAnimator scaleAnimatorY = ObjectAnimator.ofFloat(focusView, "scaleY", 1.0f, scaleY);
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.playTogether(scaleAnimatorX, scaleAnimatorY);
         animatorSet.setDuration(300);

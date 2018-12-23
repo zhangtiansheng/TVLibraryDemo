@@ -9,6 +9,7 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
 import com.swl.tvlibrary.R;
+import com.zhy.autolayout.AutoRelativeLayout;
 
 
 /**
@@ -16,7 +17,7 @@ import com.swl.tvlibrary.R;
  *
  * @author zhangTianSheng 956122936@qq.com
  */
-public class ZoomRelativeLayout extends RelativeLayout {
+public class ZoomRelativeLayout extends AutoRelativeLayout {
 
     private Animation mAnimFocus, mAnimUnFocus;
 

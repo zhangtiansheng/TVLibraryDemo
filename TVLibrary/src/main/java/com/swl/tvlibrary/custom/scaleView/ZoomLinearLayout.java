@@ -9,6 +9,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
 import com.swl.tvlibrary.R;
+import com.zhy.autolayout.AutoLinearLayout;
 
 
 /**
@@ -16,7 +17,7 @@ import com.swl.tvlibrary.R;
  *
  * @author zhangTianSheng 956122936@qq.com
  */
-public class ZoomLinearLayout extends LinearLayout {
+public class ZoomLinearLayout extends AutoLinearLayout {
 
     private Animation mAnimFocus, mAnimUnFocus;
 

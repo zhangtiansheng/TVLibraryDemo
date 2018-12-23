@@ -1,4 +1,4 @@
-﻿package com.swl.tvlibrary.view;
+package com.swl.tvlibrary.view;
 
 import android.view.View;
 import android.view.ViewGroup;

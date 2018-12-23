@@ -6,13 +6,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
+import com.zhy.autolayout.AutoRelativeLayout;
+
 /**
  * 自动选择上一次丢失焦点的位置，onFocus可直接用于数据加载，防止重复触发
  * 用于LinearLayout内所有可点击view的焦点事件，点击事件的统一管理
  *
  * @author zhangTianSheng 956122936@qq.com
  */
-public class CustomRelativeLayout extends RelativeLayout implements View.OnFocusChangeListener,
+public class CustomRelativeLayout extends AutoRelativeLayout implements View.OnFocusChangeListener,
         View.OnClickListener {
 
     private OnItemFocusChangeListener mOnItemFocusChangeListener;

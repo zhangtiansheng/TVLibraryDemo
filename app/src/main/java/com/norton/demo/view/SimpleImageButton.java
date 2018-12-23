@@ -6,16 +6,16 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.norton.demo.R;
+import com.zhy.autolayout.AutoFrameLayout;
 
 /**
  * @author zhangTianSheng 956122936@qq.com
  */
-public class SimpleImageButton extends FrameLayout implements View.OnFocusChangeListener {
+public class SimpleImageButton extends AutoFrameLayout implements View.OnFocusChangeListener {
 
     private ImageView mImageView;
     private TextView mTextView;

@@ -6,6 +6,8 @@ import android.util.AttributeSet;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 
+import com.zhy.autolayout.AutoLinearLayout;
+
 /**
  * 解决当该页面使用了外边框动画时，进行页面垂直滚动时，外边框位置不对的问题
  * 页面水平滚动与此类似，也可直接继承自其它容器布局
@@ -13,7 +15,7 @@ import android.widget.LinearLayout;
  *
  * @author zhangTianSheng 956122936@qq.com
  */
-public class SmoothScrollLinearLayout extends LinearLayout {
+public class SmoothScrollLinearLayout extends AutoLinearLayout {
 
     private ScrollerCompat mScroller;
 

@@ -1,0 +1,95 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+        <com.swl.tvlibrary.view.LinearMainLayout
+            android:id="@+id/main_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="60dp"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+
+            <com.norton.demo.view.PosterView
+                android:id="@+id/posterView_1"
+                android:layout_width="500px"
+                android:layout_height="730px"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="40px"
+                app:poster="@mipmap/bg_poster_1"
+                app:text="飞框动画" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="40px"
+                android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <com.norton.demo.view.PosterView
+                    android:id="@+id/posterView_2"
+                    android:layout_width="500px"
+                    android:layout_height="340px"
+                    app:poster="@mipmap/bg_video_1"
+                    app:text="无边框" />
+
+                <com.norton.demo.view.PosterView
+                    android:id="@+id/posterView_3"
+                    android:layout_width="500px"
+                    android:layout_height="354px"
+                    android:layout_marginTop="30px"
+                    app:poster="@mipmap/bg_video_2"
+                    app:text="有边框，无动画" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="40px"
+                android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <com.norton.demo.view.PosterView
+                    android:id="@+id/posterView_4"
+                    android:layout_width="500px"
+                    android:layout_height="340px"
+                    app:poster="@mipmap/bg_video_3"
+                    app:text="4" />
+
+                <com.norton.demo.view.PosterView
+                    android:id="@+id/posterView_5"
+                    android:layout_width="500px"
+                    android:layout_height="354px"
+                    android:layout_marginTop="30px"
+                    app:poster="@mipmap/bg_video_4"
+                    app:text="5" />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+        </com.swl.tvlibrary.view.LinearMainLayout>
+
+    <!-- 最顶层边框 -->
+
+    <com.swl.tvlibrary.view.MainUpView
+        android:id="@+id/mainUpView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:upImageRes="@mipmap/bg_focus_ver" />
+
+</com.zhy.autolayout.AutoRelativeLayout>

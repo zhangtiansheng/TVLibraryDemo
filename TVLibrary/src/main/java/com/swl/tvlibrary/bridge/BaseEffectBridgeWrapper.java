@@ -1,4 +1,4 @@
-﻿package com.swl.tvlibrary.bridge;
+package com.swl.tvlibrary.bridge;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;

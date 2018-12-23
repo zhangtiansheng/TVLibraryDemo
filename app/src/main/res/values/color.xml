@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bule">#90c3ff</color>
+    <color name="yellow">#fea923</color>
+    <color name="light_bule">#7eaee6</color>
+    <color name="dark_404040">#ff404040</color>
+    <color name="dark_bule_6a96cc">#6a96cc</color>
+    <color name="detail_point">#f4a425</color>
+    <color name="background">#083008</color>
+    <color name="red">#FF0000</color>
+    <color name="ff8501">#ff8501</color>
+    <color name="d9000000">#d9000000</color>
+    <color name="color_188fe3">#188fe3</color>
+
+    <color name="color_9a9ba0">#9a9ba0</color>
+
+    <color name="to_play">#38322B</color>
+    <color name="continue_to_play">#2EA9C2</color>
+    <color name="menu_hint">#ffaa23</color>
+
+    <color name="playInfo">#88000000</color>
+    <color name="list_left_color">#1D0052</color>
+    <color name="yellow_light">#ffaa23</color>
+
+    <color name="trans_light">#99eaeaea</color>
+    <color name="black2">#ff666666</color>
+    <color name="green">#ff32b9aa</color>
+
+    <color name="txt_index">#808080</color>
+    <color name="item_name">#ababab</color>
+    <color name="item_title">#ababab</color>
+    <color name="txt_download">#818181</color>
+    <color name="item_index">#ffffff</color>
+    <color name="txt_blue">#1f4eff</color>
+    <color name="pb2">#678FF5</color>
+    <color name="pbbg">#001e68</color>
+    <color name="item_name_focus">#ffffff</color>
+    <color name="item_title_focus">#ffffff</color>
+    <color name="color_33e7f2">#33e7f2</color>
+
+    <color name="ffffff">#ffffff</color>
+    <color name="ababab">#ababab</color>
+    <color name="color_c9c9c9">#c9c9c9</color>
+    <color name="color_303030">#303030</color>
+
+</resources>

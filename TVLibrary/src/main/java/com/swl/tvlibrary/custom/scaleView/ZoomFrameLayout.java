@@ -8,6 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 
 import com.swl.tvlibrary.R;
+import com.zhy.autolayout.AutoFrameLayout;
 
 
 /**
@@ -15,7 +16,7 @@ import com.swl.tvlibrary.R;
  *
  * @author zhangTianSheng 956122936@qq.com
  */
-public class ZoomFrameLayout extends FrameLayout {
+public class ZoomFrameLayout extends AutoFrameLayout {
 
     private Animation mAnimFocus, mAnimUnFocus;
 

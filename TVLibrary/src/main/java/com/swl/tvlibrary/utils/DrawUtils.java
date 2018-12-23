@@ -1,4 +1,4 @@
-package com.swl.tvwidget.utils;
+package com.swl.tvlibrary.utils;
 
 import android.graphics.Path;
 import android.graphics.RectF;

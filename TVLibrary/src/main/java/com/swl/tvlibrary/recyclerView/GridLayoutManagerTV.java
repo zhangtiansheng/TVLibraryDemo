@@ -1,4 +1,4 @@
-﻿package com.swl.tvlibrary.recyclerView;
+package com.swl.tvlibrary.recyclerView;
 
 import android.content.Context;
 import android.graphics.PointF;

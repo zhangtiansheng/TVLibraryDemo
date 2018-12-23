@@ -7,22 +7,24 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.norton.demo.R;
+import com.zhy.autolayout.AutoFrameLayout;
 
 /**
  * @author zhangTianSheng 956122936@qq.com
  */
-public class PosterView extends FrameLayout implements View.OnFocusChangeListener {
+public class PosterView extends AutoFrameLayout implements View.OnFocusChangeListener {
 
+    private RelativeLayout mPosterItem;
     private ImageView poster;
     private RelativeLayout poster_title;
     private TextView poster_txt_introduce;
     private SimpleFocusChange mSimpleFocusChange;
+    private boolean isShowBroader;
 
     public PosterView(Context context) {
         this(context, null);
@@ -35,6 +37,7 @@ public class PosterView extends FrameLayout implements View.OnFocusChangeListene
     public PosterView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         LayoutInflater.from(context).inflate(R.layout.layout_poster_view, this, true);
+        mPosterItem = (RelativeLayout) findViewById(R.id.item_poster);
         poster = (ImageView) findViewById(R.id.poster);
         poster_title = (RelativeLayout) findViewById(R.id.poster_title);
         poster_txt_introduce = (TextView) findViewById(R.id.poster_txt_introduce);
@@ -75,10 +78,26 @@ public class PosterView extends FrameLayout implements View.OnFocusChangeListene
         poster_title.setVisibility(View.VISIBLE);
     }
 
+    public void showBroader() {
+        isShowBroader = true;
+        mPosterItem.setBackgroundResource(R.drawable.selector_shape_focus);
+    }
+
+    public void closeBroader() {
+        isShowBroader = false;
+        mPosterItem.setBackgroundResource(R.color.transparent);
+    }
 
     @Override
     public void onFocusChange(View v, boolean hasFocus) {
         enableViewTextScroll(hasFocus);
+        if (isShowBroader) {
+            if (hasFocus) {
+                mPosterItem.setBackgroundResource(R.drawable.shape_bg_focus);
+            } else {
+                mPosterItem.setBackgroundResource(R.color.transparent);
+            }
+        }
         if (null != mSimpleFocusChange) {
             mSimpleFocusChange.onSimpleFocusChange(v, hasFocus);
         }

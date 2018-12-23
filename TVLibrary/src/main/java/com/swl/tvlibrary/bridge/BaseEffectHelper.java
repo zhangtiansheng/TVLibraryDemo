@@ -1,4 +1,4 @@
-﻿package com.swl.tvlibrary.bridge;
+package com.swl.tvlibrary.bridge;
 
 
 /**

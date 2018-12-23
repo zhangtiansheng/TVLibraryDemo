@@ -1,0 +1,43 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="80dp"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.swl.tvlibrary.custom.MemoryListView
+        android:id="@+id/listview_1"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:nextFocusLeft="@id/listview_1"
+        android:nextFocusRight="@+id/listview_2"
+        android:nextFocusDown="@+id/listview_1"
+        android:listSelector="@drawable/live_category_item_line"/>
+
+    <com.swl.tvlibrary.custom.MemoryListView
+        android:id="@+id/listview_2"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:nextFocusLeft="@id/listview_1"
+        android:nextFocusRight="@+id/listview_3"
+        android:nextFocusDown="@+id/listview_2"
+        android:listSelector="@drawable/live_category_item_line"/>
+
+    <com.swl.tvlibrary.custom.MemoryListView
+        android:id="@+id/listview_3"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:nextFocusLeft="@id/listview_2"
+        android:nextFocusRight="@+id/listview_3"
+        android:nextFocusDown="@+id/listview_3"
+        android:listSelector="@drawable/live_category_item_line"/>
+
+</com.zhy.autolayout.AutoLinearLayout>

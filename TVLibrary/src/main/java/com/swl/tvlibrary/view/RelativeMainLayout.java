@@ -1,9 +1,11 @@
-﻿package com.swl.tvlibrary.view;
+package com.swl.tvlibrary.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RelativeLayout;
+
+import com.zhy.autolayout.AutoRelativeLayout;
 
 /**
  * 如果有控件放大被挡住，可以使用 RelativeMainLayout, <p>
@@ -11,7 +13,7 @@ import android.widget.RelativeLayout;
  * 使用方式和LinerLayout是一样的<p>
  *
  */
-public class RelativeMainLayout extends RelativeLayout {
+public class RelativeMainLayout extends AutoRelativeLayout {
 
     public RelativeMainLayout(Context context) {
         super(context);

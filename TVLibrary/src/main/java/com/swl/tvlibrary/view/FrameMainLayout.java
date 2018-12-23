@@ -1,9 +1,11 @@
-﻿package com.swl.tvlibrary.view;
+package com.swl.tvlibrary.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
+
+import com.zhy.autolayout.AutoFrameLayout;
 
 /**
  * 如果有控件放大被挡住，可以使用 MainLayout,
@@ -16,7 +18,7 @@ import android.widget.FrameLayout;
  * <p/>
  *
  */
-public class FrameMainLayout extends FrameLayout {
+public class FrameMainLayout extends AutoFrameLayout {
 
     public FrameMainLayout(Context context) {
         super(context);

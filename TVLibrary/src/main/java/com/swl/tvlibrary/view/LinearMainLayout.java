@@ -1,16 +1,18 @@
-﻿package com.swl.tvlibrary.view;
+package com.swl.tvlibrary.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.zhy.autolayout.AutoLinearLayout;
+
 /**
  * 如果有控件放大被挡住，可以使用 LinearMainLayout, <p>
  * 它继承于 LinearLayout.<p>
  * 使用方式和LinerLayout是一样的<p>
  */
-public class LinearMainLayout extends LinearLayout {
+public class LinearMainLayout extends AutoLinearLayout {
 
     public LinearMainLayout(Context context) {
         super(context);
