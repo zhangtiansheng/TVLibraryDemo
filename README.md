@@ -15,7 +15,7 @@
 
 示例app暂未上传，但其中使用到的TV控件已经全部上传
 
-仿电视猫APP效果，所以暂时使用电视猫的图片替代
+仿电视猫APP效果
 
 <img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/1.jpg" width=270 height=150/>
 <img src="https://github.com/zhangtiansheng/TVLibraryDemo/blob/master/image/3.jpg" width=270 height=150/>
